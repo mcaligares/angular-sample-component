@@ -1,6 +1,7 @@
 {
   "name": "sample-component",
   "version": "0.0.0",
+  "main": "dist/sample-component",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
