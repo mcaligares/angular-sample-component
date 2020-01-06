@@ -1,0 +1,66 @@
+$primary: #2E4272 !default;
+$mobile-width: 768px !default;
+$tablet-width: 1024px !default;
+
+$component-title-size: 2rem;
+$component-item-title-size: 1rem;
+
+.component {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Times, serif;
+  .component-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $primary;
+    &__title {
+      flex-grow: 1;
+      padding: 10px;
+      color: lighten($primary, 50);
+      font-size: $component-title-size;
+    }
+    &__search {
+      flex-grow: 1;
+      padding: 10px;
+      text-align: right;
+      input {
+        border: none;
+        padding: 15px;
+        font-size: ($component-title-size - 0.8);
+        background-color: lighten($primary, 50);
+        &:focus {
+          outline: lighten($primary, 20) auto 5px;
+        }
+      }
+    }
+  }
+  .component-list {
+    height: 70vh;
+    padding: 5px;
+    overflow-y: scroll;
+    background-color: lighten($primary, 60);
+    .component-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      border-bottom: 1px solid darken($primary, 5);
+      .item-description {
+        &__title {
+          font-size: $component-item-title-size;
+          color: darken($primary, 5);
+        }
+        &__link {
+          color: $primary;
+          font-style: italic;
+          text-decoration: underline;
+        }
+      }
+      .item-picture {
+        padding: 5px;
+      }
+    }
+  }
+}
