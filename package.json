@@ -20,7 +20,7 @@
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
-    "styles-project": "file:../styles-project",
+    "sample-styles-library": "git+ssh://git@github.com/mcaligares/sample-styles-library.git",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
