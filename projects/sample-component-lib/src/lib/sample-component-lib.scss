@@ -1,18 +1,40 @@
-$primary: #3976AA;
-
 @import "~sample-styles-library/sass/sample-styles-library";
 
 .component-list {
   .component-header {
     background-color: $primary;
+    &__title {
+      color: lighten($primary, 50);
+    }
+    &__search {
+      input {
+        background-color: lighten($primary, 50);
+        &:focus {
+          outline: lighten($primary, 20) auto 5px;
+        }
+      }
+    }
   }
 
   .component-body {
+    background-color: lighten($primary, 50);
     .component-item {
+      padding-bottom: 15px;
+      border-bottom: 1px solid darken($primary, 5);
       .item-description {
         &__title {
-          color: $primary;
+          color: darken($primary, 5);
+          text-transform: capitalize;
+          font-size: $component-item-title-size;
         }
+        &__link {
+          color: $primary;
+          font-style: italic;
+          text-decoration: underline;
+        }
+      }
+      .item-picture {
+        padding: 5px;
       }
     }
   }
