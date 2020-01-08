@@ -17,14 +17,6 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "sample-component-lib": [
-        "dist/sample-component-lib"
-      ],
-      "sample-component-lib/*": [
-        "dist/sample-component-lib/*"
-      ]
-    }
+    ]
   }
 }
