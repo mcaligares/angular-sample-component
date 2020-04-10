@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of sample-component-lib
+ */
+export * from './lib/sample-component-lib.component';
+export * from './lib/sample-component-lib.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3NhbXBsZS1jb21wb25lbnQtbGliLyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsc0NBQXNDLENBQUM7QUFDckQsY0FBYyxtQ0FBbUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc2FtcGxlLWNvbXBvbmVudC1saWJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9zYW1wbGUtY29tcG9uZW50LWxpYi5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2FtcGxlLWNvbXBvbmVudC1saWIubW9kdWxlJztcbiJdfQ==
