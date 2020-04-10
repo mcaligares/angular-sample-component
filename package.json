@@ -1,0 +1,47 @@
+{
+  "name": "angular-sample-component",
+  "version": "0.0.1",
+  "main": "dist/sample-component-lib/bundles/sample-component-lib.umd.js",
+  "module": "dist/sample-component-lib/fesm5/sample-component-lib.js",
+  "es2015": "dist/sample-component-lib/fesm2015/sample-component-lib.js",
+  "esm5": "dist/sample-component-lib/esm5/sample-component-lib.js",
+  "esm2015": "dist/sample-component-lib/esm2015/sample-component-lib.js",
+  "fesm5": "dist/sample-component-lib/fesm5/sample-component-lib.js",
+  "fesm2015": "dist/sample-component-lib/fesm2015/sample-component-lib.js",
+  "typings": "dist/sample-component-lib/sample-component-lib.d.ts",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.0.6",
+    "@angular/common": "~9.0.6",
+    "@angular/compiler": "~9.0.6",
+    "@angular/core": "~9.0.6",
+    "@angular/forms": "~9.0.6",
+    "@angular/platform-browser": "~9.0.6",
+    "@angular/platform-browser-dynamic": "~9.0.6",
+    "@angular/router": "~9.0.6",
+    "rxjs": "~6.5.4",
+    "sample-styles-library": "git+ssh://git@github.com/mcaligares/sample-styles-library.git",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.7",
+    "@angular-devkit/build-ng-packagr": "~0.900.7",
+    "@angular/cli": "~9.0.6",
+    "@angular/compiler-cli": "~9.0.6",
+    "@angular/language-service": "~9.0.6",
+    "@types/node": "^12.11.1",
+    "ng-packagr": "^9.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
+  }
+}
